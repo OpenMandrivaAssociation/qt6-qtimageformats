@@ -20,6 +20,9 @@ BuildRequires:	pkgconfig(libmng)
 BuildRequires:	pkgconfig(jasper)
 BuildRequires:	pkgconfig(libtiff-4)
 BuildRequires:	pkgconfig(libwebp)
+BuildRequires:	pkgconfig(egl)
+BuildRequires:	pkgconfig(gl)
+BuildRequires:	pkgconfig(glesv2)
 License:	LGPLv3/GPLv3/GPLv2
 
 %description
