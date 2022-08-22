@@ -15,7 +15,11 @@ BuildRequires:	cmake
 BuildRequires:	ninja
 BuildRequires:	cmake(Qt6Core)
 BuildRequires:	cmake(Qt6Gui)
+BuildRequires:	cmake(Qt6GuiTools)
 BuildRequires:	qt6-cmake
+BuildRequires:	pkgconfig(zlib)
+BuildRequires:	pkgconfig(libjpeg)
+BuildRequires:	pkgconfig(libpng)
 BuildRequires:	pkgconfig(libmng)
 BuildRequires:	pkgconfig(jasper)
 BuildRequires:	pkgconfig(libtiff-4)
