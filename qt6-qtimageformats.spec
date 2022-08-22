@@ -16,6 +16,7 @@ BuildRequires:	ninja
 BuildRequires:	cmake(Qt6Core)
 BuildRequires:	cmake(Qt6Gui)
 BuildRequires:	cmake(Qt6GuiTools)
+BuildRequires:	cmake(Qt6DBus)
 BuildRequires:	qt6-cmake
 BuildRequires:	pkgconfig(zlib)
 BuildRequires:	pkgconfig(libjpeg)
