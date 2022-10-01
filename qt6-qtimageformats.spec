@@ -1,8 +1,8 @@
-%define beta rc
+#define beta rc
 
 Name:		qt6-qtimageformats
 Version:	6.4.0
-Release:	%{?beta:0.%{beta}.}%{?snapshot:0.%{snapshot}.}1
+Release:	%{?beta:0.%{beta}.1}%{?snapshot:1.%{snapshot}.}1
 %if 0%{?snapshot:1}
 # "git archive"-d from "dev" branch of git://code.qt.io/qt/qtbase.git
 Source:		qtimageformats-%{?snapshot:%{snapshot}}%{!?snapshot:%{version}}.tar.zst
@@ -47,6 +47,8 @@ Development files for the Qt imageformats module
 	-DCMAKE_INSTALL_PREFIX=%{_qtdir} \
 	-DQT_BUILD_EXAMPLES:BOOL=ON \
 	-DQT_WILL_INSTALL:BOOL=ON \
+	-DINPUT_tiff=system \
+	-DINPUT_webp=system \
 	--log-level=STATUS \
 || cat CMakeFiles/CMakeOutput.log
 
