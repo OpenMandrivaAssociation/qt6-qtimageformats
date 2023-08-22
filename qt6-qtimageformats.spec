@@ -1,4 +1,4 @@
-%define beta beta2
+%define beta beta3
 
 Name:		qt6-qtimageformats
 Version:	6.6.0
