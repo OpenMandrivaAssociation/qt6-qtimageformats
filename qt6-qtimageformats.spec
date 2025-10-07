@@ -1,4 +1,4 @@
-%define beta rc
+#define beta rc
 
 Name:		qt6-qtimageformats
 Version:	6.10.0
