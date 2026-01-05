@@ -2,7 +2,7 @@
 
 Name:		qt6-qtimageformats
 Version:	6.10.1
-Release:	%{?beta:0.%{beta}.}%{?snapshot:0.%{snapshot}.}1
+Release:	%{?beta:0.%{beta}.}%{?snapshot:0.%{snapshot}.}2
 %if 0%{?snapshot:1}
 # "git archive"-d from "dev" branch of git://code.qt.io/qt/qtbase.git
 Source:		qtimageformats-%{?snapshot:%{snapshot}}%{!?snapshot:%{version}}.tar.zst
